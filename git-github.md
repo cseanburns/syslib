@@ -5,13 +5,14 @@
 On GitHub.com:
 
 1. Setup github account
+1. Make email address private (optional)
 	- go to Settings -> Emails
 	- choose **Keep my email address private**, if you want
-2. Click on the + sign in GitHub
-	- click on New repository
-3. Create ssh key
+1. Create ssh key on your Linux server
 	- add pub key to GitHub
-4. Clone repo
+	- go to Settings **SSH and GPG keys**
+	- click on **New SSH key**
+	- paste pub key from **~/.ssh/id_ed25519.pub**
 
 Read more **GitHub** documentation here:
 
@@ -41,9 +42,14 @@ Read more ``git`` documentation here:
 
 [https://git-scm.com/](https://git-scm.com/)
 
-## Use git
+## Use git on remote server
 
-1. Added or modify files in your repo
+1. Make new directory in your home directory
+1. Clone repo
+
+	``git clone git@github.com:cseanburns/syslib.git``
+
+1. Add or modify files in cloned repo
 2. Track changes with:
 	
 	```
@@ -61,7 +67,6 @@ Read more ``git`` documentation here:
 	```
 	git push origin main
 	```
-
 
 ## Markdown
 

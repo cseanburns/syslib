@@ -42,4 +42,8 @@ An ordered list:
 	- this is a sub item
 	- this is a sub item
 
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| data	   | data     | data     |
+| data 2   | data 2   | data 3   |
 

@@ -9,6 +9,10 @@ On GitHub.com:
 	- go to Settings -> Emails
 	- choose **Keep my email address private**, if you want
 1. Create ssh key on your Linux server
+
+	`ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+1. Add ssh pub key to GitHub
 	- add pub key to GitHub
 	- go to Settings **SSH and GPG keys**
 	- click on **New SSH key**
@@ -20,7 +24,7 @@ Read more **GitHub** documentation here:
 
 ## Setup Git
 
-Configure ``git`` on your local machine.
+Configure ``git`` on your remote server.
 
 1. Configure your identity.
 From the command prompt:
@@ -67,6 +71,16 @@ Read more ``git`` documentation here:
 	```
 	git push origin main
 	```
+
+### Editing on GitHub
+
+If you edit a file on GitHub,
+to sync to your local repo on your server,
+run the following command:
+
+```
+git pull origin main
+```
 
 ## Markdown
 

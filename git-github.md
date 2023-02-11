@@ -87,6 +87,11 @@ git pull origin main
 
 Visit **Markdown** documentation here:
 
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- [Markdown Documentatin](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 
-Only need to know the basics.
+It's okay to only know Markdown basics.
+The whole point of Markdown is to
+simply writing text that can be
+converted to other formats,
+like HTML, PDF, DOCX, ODT, etc.

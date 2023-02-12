@@ -6,16 +6,20 @@ On GitHub.com:
 
 1. Setup GitHub account
 1. Make email address private (optional)
-	- go to Settings -> Emails
-	- choose **Keep my email address private**, if you want
-1. Create ssh key on your Linux server
+	- Go to Settings -> Emails
+	- Choose **Keep my email address private**, if you want to keep your
+	  email private
+1. Create an SSH key on your Linux server with the following command. Use the
+email you signed up with GitHub, surrounded with double quotes, in the command
+below:
 
 	`ssh-keygen -t ed25519 -C "your_email@example.com"`
 
-1. Add ssh pub key to GitHub. To add pub key to GitHub.
+1. Add SSH public key to GitHub. To add your public key to GitHub:
 	- On GitHub, go to Settings **SSH and GPG keys**
-	- click on **New SSH key**
-	- On server, use ``nano`` to open the file: **~/.ssh/id_ed25519.pub**.
+	- Click on **New SSH key**
+	- On Linux server, use ``nano`` to open the file:
+	  **~/.ssh/id_ed25519.pub**.
 	- Copy contents (mouse should work).
 	- Paste contents into the **New SSH key** text box on GitHub.
 
@@ -28,7 +32,7 @@ Read more **GitHub** documentation here:
 
 Configure ``git`` on your remote server.
 
-1. Configure your identity.
+1. Configure your identity and some other defaults.
 From the command prompt:
 
 ```
@@ -50,12 +54,16 @@ Read more ``git`` documentation here:
 
 ## Use git on remote server
 
-1. Make new directory in your home directory
-1. Clone repo
+On your Linux server:
+
+1. Make new directory in your home directory. For example, I created a
+   directory called **repos** on mine.
+1. Change into the new directory with the `cd` command.
+1. Clone repo using the following command:
 
 	``git clone git@github.com:cseanburns/syslib.git``
 
-1. Add or modify files in cloned repo
+1. Add or modify files in cloned repo.
 2. Track changes with:
 	
 	```
@@ -73,6 +81,16 @@ Read more ``git`` documentation here:
 	```
 	git push origin main
 	```
+
+Going forward, each time you make edits
+or add new files, simply repeate the following
+commands to sync your local repo to the GitHub repo:
+
+```
+git add .
+git commit -m "add message in quotes"
+git push origin main
+```
 
 ### Editing on GitHub
 

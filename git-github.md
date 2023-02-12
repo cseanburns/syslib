@@ -4,7 +4,7 @@
 
 On GitHub.com:
 
-1. Setup github account
+1. Setup GitHub account
 1. Make email address private (optional)
 	- go to Settings -> Emails
 	- choose **Keep my email address private**, if you want
@@ -12,11 +12,12 @@ On GitHub.com:
 
 	`ssh-keygen -t ed25519 -C "your_email@example.com"`
 
-1. Add ssh pub key to GitHub
-	- add pub key to GitHub
-	- go to Settings **SSH and GPG keys**
+1. Add ssh pub key to GitHub. To add pub key to GitHub.
+	- On GitHub, go to Settings **SSH and GPG keys**
 	- click on **New SSH key**
-	- paste pub key from **~/.ssh/id_ed25519.pub**
+	- On server, use ``nano`` to open the file: **~/.ssh/id_ed25519.pub**.
+	- Copy contents (mouse should work).
+	- Paste contents into the **New SSH key** text box on GitHub.
 
 Read more **GitHub** documentation here:
 
@@ -87,8 +88,8 @@ git pull origin main
 
 Visit **Markdown** documentation here:
 
-- [Markdown Documentatin](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+- [Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 It's okay to only know Markdown basics.
 The whole point of Markdown is to

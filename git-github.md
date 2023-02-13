@@ -32,6 +32,8 @@ Read more **GitHub** documentation here:
 
 ## Setup Git
 
+On your Linux server:
+
 Configure ``git`` on your remote server.
 
 1. Configure your identity and some other defaults.

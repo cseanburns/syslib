@@ -22,6 +22,8 @@ below:
 	  **~/.ssh/id_ed25519.pub**.
 	- Copy contents (mouse should work).
 	- Paste contents into the **New SSH key** text box on GitHub.
+1. Create a new repository. E.g., my repo is named **syslib**. You can name
+yours whatever you'd like.
 
 Read more **GitHub** documentation here:
 
@@ -59,11 +61,11 @@ On your Linux server:
 1. Make new directory in your home directory. For example, I created a
    directory called **repos** on mine.
 1. Change into the new directory with the `cd` command.
-1. Clone repo using the following command:
+1. Clone your repo using the following command:
 
-	``git clone git@github.com:cseanburns/syslib.git``
+	``git clone git@github.com:{your_user_name}/{your_repo_name}.git``
 
-1. Add or modify files in cloned repo.
+1. Add files in cloned repo.
 2. Track changes with:
 	
 	```
@@ -83,7 +85,7 @@ On your Linux server:
 	```
 
 Going forward, each time you make edits
-or add new files, simply repeate the following
+or add new files, simply repeat the following
 commands to sync your local repo to the GitHub repo:
 
 ```

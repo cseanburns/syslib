@@ -61,24 +61,25 @@ On your Linux server:
 1. Make new directory in your home directory. For example, I created a
    directory called **repos** on mine.
 1. Change into the new directory with the `cd` command.
-1. Clone your repo using the following command:
+1. Get the `git` URL from the green **Code** dropdown box on your GitHub repo
+   site. You will clone your repo using a command that looks ike:
 
 	``git clone git@github.com:{your_user_name}/{your_repo_name}.git``
 
 1. Add files in cloned repo.
-2. Track changes with:
+1. Track changes with:
 	
 	```
 	git add .
 	```
 
-3. Commit changes and add message with:
+1. Commit changes and add message with:
 
 	```
 	git commit -m "add message in quotes"
 	```
 
-4. Push changes to remote repo with:
+1. Push changes to remote repo with:
 
 	```
 	git push origin main

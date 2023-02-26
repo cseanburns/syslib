@@ -8,7 +8,7 @@ This is **bold**.
 
 This is ***bold*** and italic.
 
-This is *italics*.
+This is *italics* and **bold**.
 
 The following is blockquote:
 

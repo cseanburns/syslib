@@ -6,7 +6,7 @@
 
 This is **bold**.
 
-This is ***bold*** and italic.
+This is ***bold*** and ***italic***.
 
 This is *italics* and **bold**.
 

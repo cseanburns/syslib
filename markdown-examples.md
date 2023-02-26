@@ -6,6 +6,8 @@
 
 This is **bold**.
 
+This is ***bold*** and italic.
+
 This is *italics*.
 
 The following is blockquote:
